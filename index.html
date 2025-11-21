@@ -3,10 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Casamento Sidney & Gabrielly 💍</title>
 
-  <meta property="og:title" content="Casamento Sidney & Gabrielly 💕" />
-  <meta property="og:description" content="26 de dezembro de 2025 • Brasília — Confirme sua presença até 01/12 💍" />
+  <title>Confirmação de Presença — Sidney & Gabrielly 💍</title>
+
+  <!-- OPEN GRAPH AJUSTADO -->
+  <meta property="og:title" content="Confirmação de Presença — Sidney & Gabrielly 💕" />
+  <meta property="og:description" content="Confirme sua presença para o casamento • 26/12/2025 • Brasília — Responda até 01/12 💍" />
   <meta property="og:image" content="https://raw.githubusercontent.com/sidneyg19-lab/convite-casamento/main/convite1.jpeg" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sidneyg19-lab.github.io/convite-casamento/" />
@@ -26,7 +28,7 @@
       padding:20px; 
     }
 
-    /* --- ANIMAÇÃO DE ENTRADA (fade-in suave) --- */
+    /* --- ANIMAÇÃO DE ENTRADA --- */
     .card {
       width:100%; 
       max-width:720px; 
@@ -45,7 +47,7 @@
       to { opacity:1; transform:translateY(0); }
     }
 
-    /* --- ZOOM SUAVE NA FOTO --- */
+    /* FOTO COM ZOOM SUAVE */
     .card img { 
       width:100%; 
       max-height:300px; 
@@ -81,7 +83,7 @@
 
     .small { font-size:13px; color:#8d7b55; margin-top:14px; }
 
-    /* --- FORMULÁRIO --- */
+    /* FORMULÁRIO */
     form {
       margin-top:25px;
       padding:20px;
@@ -127,12 +129,21 @@
 
     <p>Confirme sua presença até <b>01/12/2025</b>.</p>
 
+    <!-- BOTÃO WHATSAPP -->
     <a class="button" 
        href="https://wa.me/61999978955?text=Eu+confirmo!+Vamos+eu+e+minha+família+💕" 
        target="_blank">
        💬 Confirmar pelo WhatsApp
     </a>
 
+    <!-- BOTÃO LISTA DE PRESENTES -->
+    <a class="button"
+       href="https://m.querodecasamento.com.br/lista-de-casamento/maria-gabrielly-sidney-de-godoi"
+       target="_blank">
+       🎁 Lista de Presentes
+    </a>
+
+    <!-- BOTÃO LOCALIZAÇÃO -->
     <a class="button" 
        href="https://www.google.com/maps/dir//-15.8314187,-47.9550198/@-15.8314187,-47.9550198,3351m/data=!3m1!1e3?entry=ttu" 
        target="_blank">
@@ -157,11 +168,12 @@
         <option value="0">0 (vou sozinho)</option>
         <option value="1">1 acompanhante</option>
         <option value="2">2 acompanhantes</option>
-        <option value="3">3 acompanhantes</option>
+        <option value="3">3 ou mais</option>
       </select>
 
       <button class="button" type="submit">💛 Enviar confirmação</button>
 
+      <!-- CONFIGURAÇÕES FORM SUBMIT -->
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="box">
       <input type="hidden" name="_subject" value="Nova confirmação de presença!">
